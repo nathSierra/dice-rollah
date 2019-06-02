@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dice-rollah/static/css/main.9f4df4f3.chunk.css",
+    "main.js": "/dice-rollah/static/js/main.c6e5826c.chunk.js",
+    "main.js.map": "/dice-rollah/static/js/main.c6e5826c.chunk.js.map",
+    "runtime~main.js": "/dice-rollah/static/js/runtime~main.d78cd5f5.js",
+    "runtime~main.js.map": "/dice-rollah/static/js/runtime~main.d78cd5f5.js.map",
+    "static/js/2.f79c89c8.chunk.js": "/dice-rollah/static/js/2.f79c89c8.chunk.js",
+    "static/js/2.f79c89c8.chunk.js.map": "/dice-rollah/static/js/2.f79c89c8.chunk.js.map",
+    "index.html": "/dice-rollah/index.html",
+    "precache-manifest.4135e1a3d520309524d92d919bdb61ea.js": "/dice-rollah/precache-manifest.4135e1a3d520309524d92d919bdb61ea.js",
+    "service-worker.js": "/dice-rollah/service-worker.js",
+    "static/css/main.9f4df4f3.chunk.css.map": "/dice-rollah/static/css/main.9f4df4f3.chunk.css.map"
+  }
+}
