@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import DiceRoll from './components/Dice';
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
+const DiceHolder = styled.div`
+  flex-direction: column;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DiceHolder className="App">
+      <DiceRoll max={20}/>
+      <DiceRoll max={12}/>
+      <DiceRoll max={10}/>
+      <DiceRoll max={8}/>
+      <DiceRoll max={6}/>
+      <DiceRoll max={4}/>
+    </DiceHolder>
   );
 }
 
